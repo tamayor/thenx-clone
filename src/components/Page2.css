@@ -1,0 +1,100 @@
+a{
+    text-decoration: none;
+}
+.pg-2-all{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 55%;
+  }
+  .pg-2-container{
+    height: 100vh;
+  }
+  
+  .pg-2-img{
+    position: absolute;
+    bottom: -900px;
+    left: 0px;
+    width: 600px;
+  }
+  .pg-2-tagline{
+    transform: translateX(-30%);
+    font-size: 50px;
+    width: 600px;
+    margin: 0 10px 20px;
+    text-align: right
+  }
+  .pg-2-qa{
+    width: 350px;
+    margin: 20px 0;
+  }
+  .pg-2-question{
+    font-size: medium;
+    margin: 10px 0 0;
+  }
+  .pg-2-answer-reveal{
+    opacity: 1;
+    display: block;
+    height: max-content;
+    transition: opacity .2s ease, height .5s ease;
+    margin: 0;
+  }
+  .pg-2-answer-reveal p{
+    margin: 5px 0 0 ;
+  }
+  .pg-2-answer-hide{
+    display: block;
+    opacity: 0;
+    height: 0;
+    transition: height .5s ease;
+  }
+  .get-started{
+    font-size: small;
+    width: max-content;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: border .3s ease;
+    cursor: pointer;
+  }
+ 
+  .get-started:hover{
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(222, 222, 222);
+    transition: border .3s ease;
+  }
+  .pg-2-arrow-down{
+    transform: rotate(-90deg);
+    width: 20px;
+    height: 20px;
+    filter: invert(68%) sepia(3%) saturate(25%) hue-rotate(320deg) brightness(94%) contrast(83%);
+    margin-right: 10px;
+    transition: transform .3s ease, filter .3s ease;
+  }
+  .pg-2-arrow-down:hover, .pg-2-arrow-up:hover{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    filter: invert();
+    margin-right: 10px;
+    transition: filter .3s ease;
+  }
+  .pg-2-arrow-up{
+    transform: rotate(-270deg);
+    width: 20px;
+    height: 20px;
+    filter: invert(68%) sepia(3%) saturate(25%) hue-rotate(320deg) brightness(94%) contrast(83%);
+    margin-right: 10px;
+    transition: transform .3s ease, filter .3s ease;
+  }
+  .pg-2-q-container{
+    transform: translateX(-30px);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }

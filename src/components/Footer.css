@@ -1,0 +1,58 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.footer-1{
+    border-top: 1px solid rgb(24, 24, 24) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    padding: 50px 0 0;
+    width: 80%;
+}
+.footer-1 div{
+    margin-top: 20px;
+    height: 100px;
+}
+.yt, .fb, .ig, .x{
+    filter: invert();
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin: 0 10px ;
+}
+.footer-2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(21, 21, 21);
+}
+.footer-2 div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px ;
+    height: 200px;
+}
+.footer-2 div span{
+    margin-top: 10px ;
+    opacity: .5;
+    cursor: pointer;
+}
+.footer-2 div span:hover{
+    opacity: 1;
+}
+.thenx-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: auto;
+}
+.footer-copyright{
+    font-size: small;
+    text-align: center;
+    opacity: .5;
+}
