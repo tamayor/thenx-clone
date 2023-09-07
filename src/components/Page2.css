@@ -1,4 +1,7 @@
-a{
+
+
+@media (min-width: 1100px){
+  a{
     text-decoration: none;
 }
 .pg-2-all{
@@ -50,8 +53,11 @@ a{
     opacity: 0;
     height: 0;
     transition: height .5s ease;
+    cursor: default;
   }
   .get-started{
+    position: relative;
+    z-index: 2;
     font-size: small;
     width: max-content;
     background-color: transparent;
@@ -98,3 +104,114 @@ a{
     align-items: center;
     justify-content: left;
   }
+}
+@media only screen and (max-width: 1099px){
+  a{
+    text-decoration: none;
+}
+.pg-2-all{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    transform: translate(-50%,-50%);
+    top: 70%;
+    left: 25%;
+  }
+  .pg-2-container{
+    height: 100vh;
+  }
+  
+  .pg-2-img{
+    position: absolute;
+    bottom: -900px;
+    left: 180px;
+    width: 400px;
+  }
+  .pg-2-tagline{
+    transform: translateX(-30%);
+    font-size: 30px;
+    width: 400px;
+    margin: 0;
+    transform: translateX(-30px);
+    text-align: left
+  }
+  .pg-2-qa{
+
+    width: 350px;
+    margin: 10px 0;
+  }
+  .pg-2-question{
+    font-size: 14px;
+    margin: 10px 0 0;
+    width: 200px;
+  }
+  .pg-2-answer-reveal{
+    opacity: 1;
+    display: block;
+    height: max-content;
+    transition: opacity .2s ease, height .5s ease;
+    margin: 0;
+  }
+  .pg-2-answer-reveal p{
+    font-size: 12px;
+    width: 200px;
+    margin: 5px 0 0 ;
+  }
+  .pg-2-answer-hide{
+    display: block;
+    opacity: 0;
+    height: 0;
+    transition: height .5s ease;
+    cursor: default;
+  }
+  .get-started{
+    position: relative;
+    z-index: 2;
+    font-size: small;
+    width: max-content;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: border .3s ease;
+    cursor: pointer;
+  }
+ 
+  .get-started:hover{
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(222, 222, 222);
+    transition: border .3s ease;
+  }
+  .pg-2-arrow-down{
+    transform: rotate(-90deg);
+    width: 20px;
+    height: 20px;
+    filter: invert(68%) sepia(3%) saturate(25%) hue-rotate(320deg) brightness(94%) contrast(83%);
+    margin-right: 10px;
+    transition: transform .3s ease, filter .3s ease;
+  }
+  .pg-2-arrow-down:hover, .pg-2-arrow-up:hover{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    filter: invert();
+    margin-right: 10px;
+    transition: filter .3s ease;
+  }
+  .pg-2-arrow-up{
+    transform: rotate(-270deg);
+    width: 20px;
+    height: 20px;
+    filter: invert(68%) sepia(3%) saturate(25%) hue-rotate(320deg) brightness(94%) contrast(83%);
+    margin-right: 10px;
+    transition: transform .3s ease, filter .3s ease;
+  }
+  .pg-2-q-container{
+    transform: translateX(-30px);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+}

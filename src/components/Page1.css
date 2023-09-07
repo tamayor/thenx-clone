@@ -1,4 +1,8 @@
-main{
+
+
+@media (min-width: 1300px){
+
+  main{
     height: 100vh;
     width: 100%;
   }
@@ -14,15 +18,15 @@ main{
   .main-chris-img{
     position: absolute;
     bottom: 50px;
-    right: 0;
-    width: 500px;
+    right: -50px;
+    width: 600px;
     border-bottom: 1px solid rgb(61, 61, 61);
   }
   .main-chris-img-caption{
     position: absolute;
     bottom: 35px;
-    width: 500px;
-    right: 0;
+    width:600px;
+    right: -50px;
     color: rgb(155, 155, 155);
     font-size: 10px;
   }
@@ -103,3 +107,308 @@ main{
     -webkit-text-stroke: 3px  white;
     opacity: .08;
   }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px){
+
+  main{
+    height: 100vh;
+    width: 100%;
+  }
+  .tagline{
+    position: relative;
+    top: 100px;
+    width: 800px;
+    color: aliceblue;
+    font-size: 80px;
+    padding: 0 20px;
+    margin-left: 50px;
+  }
+  .main-chris-img{
+    position: absolute;
+    bottom: 50px;
+    right: -50px;
+    width: 500px;
+    border-bottom: 1px solid rgb(61, 61, 61);
+  }
+  .main-chris-img-caption{
+    position: absolute;
+    bottom: 35px;
+    width: 500px;
+    right: -50px;
+    color: rgb(155, 155, 155);
+    font-size: 10px;
+  }
+  .register-now-container{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    width: auto;
+  }
+  .register-now{
+    margin: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .register-now-hover{
+    margin: 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+  .register-now-sub{
+    margin: 5px 0 0;
+    font-size: 15px;
+    opacity: .8;
+  }
+  .register-now-sub-hover{
+    margin: 0;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+  .start-training-arrow{
+    position: absolute;
+    bottom: -35px;
+    left: 90px;
+    width: 100px;
+    filter: invert();
+    opacity: 0;
+    transition: all .3s ease;
+  }
+  .start-training-arrow-hover{
+    position: absolute;
+    bottom: -35px;
+    left: 120px;
+    width: 100px;
+    filter: invert();
+    opacity: 1;
+    transition: all .3s ease;
+  }
+  
+  .thenx-banner{
+    position: absolute;
+    font-size: 150px;
+    left: 20px;
+    bottom: -190px;
+    color: transparent;
+    -webkit-text-stroke: 2px  white;
+    opacity: .2;
+  }
+  .thenx-banner-2{
+    position: absolute;
+    font-size: 150px;
+    left: 100px;
+    bottom: -380px;
+    color: transparent;
+    -webkit-text-stroke: 2px  white;
+    opacity: .1;
+  }
+  .thenx-banner-3{
+    position: absolute;
+    font-size: 150px;
+    left: 650px;
+    bottom: -420px;
+    color: transparent;
+    -webkit-text-stroke: 2px  white;
+    opacity: .08;
+  }
+}
+@media (min-width: 850px) and (max-width: 999px){
+    
+  main{
+    height: 100vh;
+    width: 100%;
+  }
+  .tagline{
+    position: relative;
+    top: -20px;
+    width: 800px;
+    color: aliceblue;
+    font-size: 80px;
+    padding: 0 20px;
+    margin-left: 100px;
+  }
+  .main-chris-img{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    width: 450px;
+    border-bottom: 1px solid rgb(61, 61, 61);
+  }
+  .main-chris-img-caption{
+    position: absolute;
+    bottom: 35px;
+    width: 500px;
+    right: -50px;
+    color: rgb(155, 155, 155);
+    font-size: 10px;
+  }
+  .register-now-container{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    width: auto;
+  }
+  .register-now{
+    margin: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .register-now-hover{
+    margin: 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+  .register-now-sub{
+    margin: 5px 0 0;
+    font-size: 15px;
+    opacity: .8;
+  }
+  .register-now-sub-hover{
+    margin: 0;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+  .start-training-arrow{
+    position: absolute;
+    bottom: -35px;
+    left: 90px;
+    width: 100px;
+    filter: invert();
+    opacity: 0;
+    transition: all .3s ease;
+  }
+  .start-training-arrow-hover{
+    position: absolute;
+    bottom: -35px;
+    left: 120px;
+    width: 100px;
+    filter: invert();
+    opacity: 1;
+    transition: all .3s ease;
+  }
+
+  .thenx-banner{
+    position: absolute;
+    font-size: 100px;
+    left: 50px;
+    bottom: -80px;
+    color: transparent;
+    -webkit-text-stroke: 1px  white;
+    opacity: .2;
+  }
+  .thenx-banner-2{
+    position: absolute;
+    font-size: 100px;
+    left: 200px;
+    bottom: -200px;
+    color: transparent;
+    -webkit-text-stroke: 1px  white;
+    opacity: .1;
+  }
+  .thenx-banner-3{
+    position: absolute;
+    font-size: 100px;
+    left: 440px;
+    bottom: -305px;
+    color: transparent;
+    -webkit-text-stroke: 1px  white;
+    opacity: .08;
+  }
+}
+
+@media only screen and (max-width: 849px){
+     
+  main{
+    height: 100vh;
+    width: 100%;
+  }
+  .tagline{
+    position: relative;
+    top: -20px;
+    width: 100px;
+    color: aliceblue;
+    font-size: 80px;
+    padding: 0 20px;
+    margin-left: 10px;
+  }
+  .main-chris-img{
+    position: absolute;
+    bottom: -200px;
+    left: 80px;
+    width:500px;
+    border-bottom: 1px solid rgb(61, 61, 61);
+  }
+  .main-chris-img-caption{
+    position: absolute;
+    bottom: -230px;
+    left:  80px;
+    width:500px;
+    color: rgb(155, 155, 155);
+    font-size: 10px;
+  }
+  .register-now-container{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: auto;
+  }
+  .register-now,  .register-now-hover{
+    margin: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: small;
+  }
+  .register-now-sub,.register-now-sub-hover{
+    margin: 0;
+    font-size: 12px;
+    opacity: .8;
+    transform: translateY(-10px);
+  }
+  
+  .start-training-arrow,.start-training-arrow-hover{
+    opacity: 0;
+    width: 0;
+  }
+ 
+
+  .thenx-banner{
+    position: absolute;
+    font-size: 100px;
+    left: 10px;
+    bottom: -250;
+    color: transparent;
+    -webkit-text-stroke: 1px  white;
+    opacity: .2;
+  }
+  .thenx-banner-2{
+    position: absolute;
+    font-size: 100px;
+    left: 50px;
+    bottom: -400px;
+    color: transparent;
+    -webkit-text-stroke: 1px  white;
+    opacity: .1;
+  }
+  .thenx-banner-3{
+    position: absolute;
+    font-size: 100px;
+    left: 100px;
+    bottom: -500px;
+    color: transparent;
+    -webkit-text-stroke: 1px  white;
+    opacity: .08;
+  }
+}
